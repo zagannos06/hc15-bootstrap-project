@@ -40,7 +40,7 @@ body{
 
 }
 .carousel-caption h5{
-    color: #DC3545;
+    color: var(--blueish);
     font-size: 2.4rem;
     text-shadow: 3px 3px 3px  black;
 }
@@ -51,6 +51,9 @@ body{
 
 .carousel-caption .btn{
     width: 7rem;
+    background-color: #012E4A;
+    color: var(--bright);
+    border-color: var(--darkblue);
 }
 .carousel-caption{
     bottom: 6rem;
@@ -60,18 +63,31 @@ body{
     gap: 0.7rem;
 }
 .carousel-indicators button{
-    background-color: #DC3545 !important;
+    background-color:var(--brightBlueish) !important;
     width: 3rem !important; 
     height: 0.4rem !important;
 }
 
+
 /*! ------------ 3- ABOUT SECTION ----------- */
+
+#about h2{
+    color: var(--darkerBlueish) !important;
+}
+
+#about i{
+    color: var(--darkerBlueish);
+}
+#about h4{
+    color: var(--darkerBlueish);
+}
 
 
 /*! ------------- 4- INSTRUCTORS -------------*/
 
 #instructors .card {
     transition: transform 0.3s;
+    background-color: var(--bright);
 }
 #instructors .card:hover{
     transform:scale(1.05);
@@ -84,9 +100,41 @@ body{
     opacity:0.5 ;
 }
 
+#instructors h2{
+    color: var(--brightBlueish) !important;
+}
+
+#instructors{
+    background-color: var(--darkblue) !important;
+}
+.card-title {
+    color: var(--darkblue) !important;
+}
+.insta{
+    color: purple !important;
+}
+.face{
+    color: rgb(0, 68, 255) !important;
+}
+.twit{
+    color: rgb(0, 140, 255) !important;
+}
+.google{
+    color: #ac0000 !important;
+}
+
+
+
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
+#students .btn{
+    background-color: var(--darkblue);
+    border-color: var(--darkblue);
+}
 
+#students h2{
+    color: #012E4A !important;
+}
 /*! ----------- 5- COURSES SECTION ----------- */
 .nav-pills .nav-link.active{
     background-color: var(--blueish);
@@ -95,8 +143,32 @@ body{
     color: var(--blueish);
 }
 
+#courses h2{
+    color: var(--brightBlueish) !important;
+}
+
+#courses {
+    background-color: #012E4A !important;
+}
+
 /*! ----------- 6- CONTACT SECTION ------------ */
 
+#contact h2{
+    color: #012E4A !important;
+}
+
+#contact i{
+    color: #012E4A;
+}
+
+#contact h5{
+    color: #012E4A !important;
+}
+
+#contact button{
+    border-color: #012E4A;
+    background-color: #012E4A !important;
+}
 
 /*! --------------- 7- FOOTER ----------------- */
 
