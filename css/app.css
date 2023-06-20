@@ -75,7 +75,12 @@
 
 
 /*! ----------- 5- COURSES SECTION ----------- */
-
+.nav-pills .nav-link.active{
+    background-color: var(--blueish);
+}
+.nav-pills .nav-link{
+    color: var(--blueish);
+}
 
 /*! ----------- 6- CONTACT SECTION ------------ */
 
