@@ -6,17 +6,29 @@
     --darkblue:#012E4A;
 
 }
+body{
+    background-color: var(--brightBlueish);
+}
 
 
 /*! -------------- 1- NAVBAR ---------------- */
+.navbar{
+    background-color:var(--darkerBlueish) ;
+}
+.navbar .navbar-toggler{
+    color: var(--blueish);
+    background-color: var(--brightBlueish);
+}
 .navbar .nav-link{
     transition : color 1s  ;
     font-size: 1.2rem;
     font-weight: 600;
     
+    
 }
+
 .navbar .nav-link:hover {
-    color: red;
+    color: lightblue;
     
 }
 
@@ -57,6 +69,7 @@
 
 
 /*! ------------- 4- INSTRUCTORS -------------*/
+
 #instructors .card {
     transition: transform 0.3s;
 }
@@ -86,3 +99,41 @@
 
 
 /*! --------------- 7- FOOTER ----------------- */
+
+footer{
+    background-color: var(--darkblue) !important;
+}
+
+footer i {
+    margin-right: 0.8rem;
+    color: var(--bright);
+    transition: color 0.5s;
+
+}
+
+
+footer i:hover{
+    color: var(--blueish);
+}
+#copyright{
+    color: var(--bright);
+}
+
+.btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--darkblue);
+    width: 50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:rotate(180deg) ;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.btn-up i{
+    color: var(--bright);
+    font-size: 30px;
+}
