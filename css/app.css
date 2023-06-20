@@ -1,0 +1,83 @@
+:root{
+    --bright: #E8EDE7;
+    --brightBlueish: #81BECE;
+    --blueish: #378BA4;
+    --darkerBlueish:#036280;
+    --darkblue:#012E4A;
+
+}
+
+
+/*! -------------- 1- NAVBAR ---------------- */
+.navbar .nav-link{
+    transition : color 1s  ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.navbar .nav-link:hover {
+    color: red;
+    
+}
+
+
+
+/*! ------------- 2- CAROUSEL --------------- */
+.carousel-item{
+ max-height:calc(100vh - 88px);
+
+}
+.carousel-caption h5{
+    color: #DC3545;
+    font-size: 2.4rem;
+    text-shadow: 3px 3px 3px  black;
+}
+.carousel-caption p {
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+}
+
+.carousel-caption .btn{
+    width: 7rem;
+}
+.carousel-caption{
+    bottom: 6rem;
+}
+
+.carousel-indicators{
+    gap: 0.7rem;
+}
+.carousel-indicators button{
+    background-color: #DC3545 !important;
+    width: 3rem !important; 
+    height: 0.4rem !important;
+}
+
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+#instructors .card {
+    transition: transform 0.3s;
+}
+#instructors .card:hover{
+    transform:scale(1.05);
+}
+#instructors .card i{
+    color:var(--blueish);
+    transition: opacity 0.5s;
+}
+#instructors .card i:hover{
+    opacity:0.5 ;
+}
+
+/*! ----------- 4- STUDENTS SECTION ----------*/
+
+
+/*! ----------- 5- COURSES SECTION ----------- */
+
+
+/*! ----------- 6- CONTACT SECTION ------------ */
+
+
+/*! --------------- 7- FOOTER ----------------- */
